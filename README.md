@@ -23,7 +23,7 @@ Este projeto implementa um sistema distribuído para gerenciar pontos de recarga
 │   │── requirements.txt           # Dependências do cliente <br>
 │   └── tests/                     # Testes do cliente <br>
 │       └── test_cliente.py <br> 
-│
+│ <br> 
 │── 📂 nuvem/                    # Código do servidor central <br>
 │   │── servidor.py                # Implementação do servidor <br>
 │   │── database.py                # Gerenciamento do banco de dados <br>
@@ -31,24 +31,24 @@ Este projeto implementa um sistema distribuído para gerenciar pontos de recarga
 │   │── requirements.txt           # Dependências do servidor <br>
 │   └── tests/                     # Testes do servidor <br> 
 │       └── test_servidor.py <br> 
-│
+│ <br> 
 │── 📂 ponto_de_recarga/          # Código da estação de carregamento <br>
 │   │── ponto_recarga.py           # Implementação do ponto de recarga <br>
 │   │── Dockerfile                 # Configuração para Docker <br>
 │   │── requirements.txt           # Dependências do ponto de recarga <br>
 │   └── tests/                     # Testes do ponto de recarga <br>
 │       └── test_ponto.py <br> 
-│
+│ <br> 
 │── 📂 docker/                    # Configuração para orquestração de contêineres <br>
 │   │── docker-compose.yml         # Arquivo para subir os serviços juntos <br>
 │
 │── 📂 docs/                      # Documentação do projeto <br>
 │   │── README.md                  # Instruções para rodar o projeto <br>
 │   │── relatorio.pdf               # Relatório final do projeto <br>
-│
+│ <br> 
 │── 📂 scripts/                   # Scripts auxiliares <br>
 │   │── start_all.sh               # Script para iniciar todos os serviços <br>
-│
+│ <br> 
 │── 📂 tests/                     # Testes gerais do sistema <br>
 │   │── test_integration.py        # Testes de integração entre cliente, servidor e ponto <br>
 │
