@@ -16,8 +16,8 @@ Este projeto implementa um sistema distribuído para gerenciar pontos de recarga
 
 3. 📂 Estrutura do Repositório
 
-    📦 recarga-inteligente
-│── 📂 carro/                    # Código do cliente (veículo elétrico)
+    📦 recarga-inteligente <br>
+│── 📂 carro/                    # Código do cliente (veículo elétrico) <br>
 │   │── cliente.py                # Implementação do cliente
 │   │── Dockerfile                 # Configuração para Docker
 │   │── requirements.txt           # Dependências do cliente
