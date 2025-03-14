@@ -1,2 +1,1 @@
-# PBL-concorrencia-e-conectividade
-PBL-Concorrencia-e-conectividade
+"Sistema distribuído para otimização da recarga de veículos elétricos."
