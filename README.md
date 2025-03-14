@@ -17,45 +17,45 @@ Este projeto implementa um sistema distribuído para gerenciar pontos de recarga
 3. 📂 Estrutura do Repositório <br>
 
     📦 recarga-inteligente <br>
-│── 📂 carro/                    # Código do cliente (veículo elétrico) <br>
-│   │── cliente.py                # Implementação do cliente <br>
-│   │── Dockerfile                 # Configuração para Docker <br>
-│   │── requirements.txt           # Dependências do cliente <br>
-│   └── tests/                     # Testes do cliente <br>
+│── 📂 carro/                    <br>
+│   │── cliente.py               <br>
+│   │── Dockerfile               <br>
+│   │── requirements.txt         <br>
+│   └── tests/                   <br>
 │       └── test_cliente.py <br> 
 │ <br> 
-│── 📂 nuvem/                    # Código do servidor central <br>
-│   │── servidor.py                # Implementação do servidor <br>
-│   │── database.py                # Gerenciamento do banco de dados <br>
-│   │── Dockerfile                 # Configuração para Docker <br>
-│   │── requirements.txt           # Dependências do servidor <br>
-│   └── tests/                     # Testes do servidor <br> 
-│       └── test_servidor.py <br> 
+│── 📂 nuvem/                    <br>
+│   │── servidor.py              <br>
+│   │── database.py              <br>
+│   │── Dockerfile               <br>
+│   │── requirements.txt         <br>
+│   └── tests/                   <br> 
+│       └── test_servidor.py     <br> 
 │ <br> 
-│── 📂 ponto_de_recarga/          # Código da estação de carregamento <br>
-│   │── ponto_recarga.py           # Implementação do ponto de recarga <br>
-│   │── Dockerfile                 # Configuração para Docker <br>
-│   │── requirements.txt           # Dependências do ponto de recarga <br>
-│   └── tests/                     # Testes do ponto de recarga <br>
+│── 📂 ponto_de_recarga/    <br>
+│   │── ponto_recarga.py    <br>
+│   │── Dockerfile          <br>
+│   │── requirements.txt    <br>
+│   └── tests/              <br>
 │       └── test_ponto.py <br> 
 │ <br> 
-│── 📂 docker/                    # Configuração para orquestração de contêineres <br>
-│   │── docker-compose.yml         # Arquivo para subir os serviços juntos <br>
+│── 📂 docker/         <br>
+│   │── docker-compose.yml      <br>
 │
-│── 📂 docs/                      # Documentação do projeto <br>
-│   │── README.md                  # Instruções para rodar o projeto <br>
-│   │── relatorio.pdf               # Relatório final do projeto <br>
+│── 📂 docs/             <br>
+│   │── README.md         <br>
+│   │── relatorio.pdf     <br>
 │ <br> 
-│── 📂 scripts/                   # Scripts auxiliares <br>
-│   │── start_all.sh               # Script para iniciar todos os serviços <br>
+│── 📂 scripts/           <br>
+│   │── start_all.sh       <br>
 │ <br> 
-│── 📂 tests/                     # Testes gerais do sistema <br>
-│   │── test_integration.py        # Testes de integração entre cliente, servidor e ponto <br>
+│── 📂 tests/            <br>
+│   │── test_integration.py        <br>
 │
-│── .gitignore                     # Arquivos a serem ignorados no Git <br>
-│── requirements.txt                # Dependências gerais <br>
-│── LICENSE                         # Licença do projeto <br>
-│── README.md                       # Descrição geral do projeto <br>
+│── .gitignore                <br>
+│── requirements.txt         <br>
+│── LICENSE                  <br>
+│── README.md                <br>
 
 
      ## 👨‍💻 Equipe <br>
