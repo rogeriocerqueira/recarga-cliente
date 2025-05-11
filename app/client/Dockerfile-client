@@ -1,14 +1,11 @@
-# Dockerfile para o cliente (carro)
+# Dockerfile
 FROM python:3.12.3-slim
 
-WORKDIR /app
-COPY . .
+WORKDIR /app/client
 
-# (Opcional) Instalar dependências futuras
-# RUN pip install -r requirements.txt
+# Install dependencies
+RUN pip install flask paho-mqtt==2.1.0
 
-CMD ["bash"]
+COPY mqttclient.py ./
 
-# Obs: Ao iniciar o container, use:
-# docker exec -it client-1 bash
-# python3 client.py
+CMD ["python3", "mqttclient.py"]

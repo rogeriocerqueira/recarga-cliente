@@ -1,0 +1,34 @@
+services:
+  # MQTT Broker (Mosquitto)
+  broker_ba:
+    image: eclipse-mosquitto:2.0.18
+    container_name: broker_ba
+    ports:
+      - "1883:1883"  # Default MQTT port
+      - "1884:1884"  # Additional port (if needed)
+    networks:
+      - mqtt-net
+    volumes:
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_config:/mosquitto/config
+
+  # MQTT Client
+  mqtt-client:
+    build: .
+    container_name: mqtt-client
+    restart: unless-stopped
+    networks:
+      - mqtt-net
+    environment:
+      - BROKER_ADDRESS=broker_ba  # Points to the broker service name
+      - BROKER_PORT=1884
+    depends_on:
+      - broker_ba
+
+networks:
+  mqtt-net:
+    driver: bridge
+
+volumes:
+  mosquitto_data:
+  mosquitto_config:
