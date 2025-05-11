@@ -1,4 +1,18 @@
+# Ignorar arquivos do Paho MQTT (geralmente relacionados ao ambiente Python)
 __pycache__/
 *.log
 *.db
 .env
+
+# Ignorar o ambiente virtual (venv) do Python
+venv/
+
+# Ignorar arquivos do Flask (configurações de compilação ou de banco de dados, como SQLite)
+instance/
+*.sqlite3
+
+# Ignorar pacotes do Python instalados diretamente
+*.egg
+*.egg-info/
+dist/
+build/
