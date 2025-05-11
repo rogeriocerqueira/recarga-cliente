@@ -1,11 +1,14 @@
-# Dockerfile
-FROM python:3.12.3-slim
+# Usa uma imagem oficial do Python como base
+FROM python:3.11-slim
 
-WORKDIR /app/client
+# Diretório de trabalho dentro do container
+WORKDIR /app
 
-# Install dependencies
-RUN pip install flask paho-mqtt==2.1.0
+# Copia o script Python para dentro do container
+COPY mqtt_client.py .
 
-COPY mqttclient.py ./
+# Instala a biblioteca Paho MQTT
+RUN pip install --no-cache-dir paho-mqtt
 
-CMD ["python3", "mqttclient.py"]
+# Comando padrão que será executado ao iniciar o container
+CMD ["python", "mqtt_client.py"]
