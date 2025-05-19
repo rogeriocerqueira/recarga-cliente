@@ -1,0 +1,10 @@
+{"cliente": "João Silva", "posto": 1, "origem": "MA", "destino": "SE", "timestamp": 1620000000.1},
+{"cliente": "Maria Oliveira", "posto": 2, "origem": "SE", "destino": "BA", "timestamp": 1620000000.2},
+{"cliente": "Carlos Souza", "posto": 1, "origem": "BA", "destino": "MA", "timestamp": 1620000000.3},
+{"cliente": "Ana Costa", "posto": 4, "origem": "BA", "destino": "SE", "timestamp": 1620000000.4},
+{"cliente": "Pedro Santos", "posto": 1, "origem": "SE", "destino": "MA", "timestamp": 1620000000.5},
+{"cliente": "Lucia Lima", "posto": 3, "origem": "SE", "destino": "BA", "timestamp": 1620000000.6},
+{"cliente": "Fernando Alves", "posto": 2, "origem": "MA", "destino": "BA", "timestamp": 1620000000.7},
+{"cliente": "Juliana Pereira", "posto": 5, "origem": "BA", "destino": "SE", "timestamp": 1620000000.8},
+{"cliente": "Roberto Gomes", "posto": 2, "origem": "MA", "destino": "SE", "timestamp": 1620000000.9},
+{"cliente": "Patricia Rocha", "posto": 1, "origem": "SE", "destino": "BA", "timestamp": 1620000001.0}
